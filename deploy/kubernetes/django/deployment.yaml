@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: django
-          image: gitumarkk/k8_django_minikube:part_4
+          image: dakoller/holotoolkit:django_1.0.0
           ports:
             - containerPort: 8000
           env:
